@@ -1,0 +1,64 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 300px;
+    background: #1B244A;
+    margin: auto;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container h3 {
+    font-size: 30px;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.score-card {
+    width: 100px;
+    height: 80px;
+    background: #080001;
+    border-radius: 5px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-family: 'Cursed Timer ULiL';
+    color: yellow;
+}
+
+.btn-container {
+    margin-top: 20px;
+}
+
+.score-btn {
+    background: transparent;
+    color: white;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.highlight {
+    box-shadow: 2px 2px #888888;
+}
+
